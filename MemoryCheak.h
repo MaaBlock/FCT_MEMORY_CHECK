@@ -87,10 +87,10 @@ namespace FCT {
 		out << "未释放对象总计:" << fct_object_list.size() << std::endl;
 	}
 }
-#define FCT_NEW(type,...) _fct_new<type>(__VA_ARGS__)
-#define FCT_NEWS(type,num) _fct_news<type>(num)
-#define FCT_DELETE(args) _fct_delete<decltype(args)>(args)
-#define FCT_DELETES(args) _fct_deletes<decltype(args)>(args)
+#define FCT_NEW(type,...) FCT::_fct_new<type>(__VA_ARGS__)
+#define FCT_NEWS(type,num) FCT::_fct_news<type>(num)
+#define FCT_DELETE(args) FCT::_fct_delete<decltype(args)>(args)
+#define FCT_DELETES(args) FCT::_fct_deletes<decltype(args)>(args)
 #else
 #define FCT_NEW(type) new type
 #define FCT_DELETE(args) delete args
