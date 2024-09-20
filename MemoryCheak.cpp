@@ -1,3 +1,4 @@
+#include "MemoryCheak.h"
 #ifdef FCT_MEMORY_CHEAK
 namespace FCT {
 	std::vector<_fct_object_t*> fct_object_list = std::vector<_fct_object_t*>();
