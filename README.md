@@ -8,9 +8,9 @@ use FCT_NEW instead of new.
 FCT_NEW(ClassName,param1,param2....);
 
 FCT_NEW(ClassName,ObjectNum,param1,param2....);
+FCT_NEWS(ClaasName,nums)
 
 use FCT_DELETE,FCT_DELETES instead of delete,delete[].
 
 FCT_DELETE(object);
-
-FCT_DELETE(objects);
+FCT_DELETES(objects);
