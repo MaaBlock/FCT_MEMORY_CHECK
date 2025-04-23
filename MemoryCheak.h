@@ -1,6 +1,6 @@
 
+#ifndef FCT_MEMORY_CHEAK
 #define FCT_MEMORY_CHEAK
-#ifdef FCT_MEMORY_CHEAK
 #include <typeinfo>
 #include <mutex>
 #include <vector>
