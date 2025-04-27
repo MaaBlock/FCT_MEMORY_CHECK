@@ -1,4 +1,4 @@
-# FCT_MEMORY_CHEAK
+# FCT_MEMORY_CHECK
 a simple memory checking mechanism for dynamically allocated objects in C++.
 
 it need c++11.
